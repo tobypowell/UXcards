@@ -1,0 +1,61 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+
+/* Color variables */
+:root {
+  --darkBlue: #052d52;
+  --lightBlue: #465767;
+  --orange: #d87400;
+  --lightGrey: #f2f2f3;
+  --midGrey: #9ca8b4;
+  --bgcol: #fff;
+}
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 16px; /* 1rem = 16px */
+  color: var(--lightBlue);
+  background-color: #fff;
+  padding: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--darkBlue);
+  line-height: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 0.25rem;
+}
+
+h5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p,
+li,
+a {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+button,
+input {
+  font-family: inherit;
+}
